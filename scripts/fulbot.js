@@ -19,7 +19,4 @@ module.exports = function main(robot) {
     res.send('OK');
   });
 
-  setInterval(function() {
-    robot.http('http://fulbot-dcl.herokuapp.com').get();
-  }, 300000); // 5 minutes
 };
